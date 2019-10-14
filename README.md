@@ -12,3 +12,5 @@ And... whichever others of these from the Makefile aren't available in the MinGW
 (Note: As of this commit, I don't actually know if it will compile.)
 
 And the you'll need to tweak the Makefile.
+
+Wondering what the timestamps on these files should be? Most are pre 2006. Except this readme of course.
