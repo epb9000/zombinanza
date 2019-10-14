@@ -10,3 +10,5 @@ And... whichever others of these from the Makefile aren't available in the MinGW
 -mwindows -lwinmm -ldsound -lfltk -lstdc++ -lUUID -lole32 -lwsock32  --disable-runtime-pseudo-reloc  -lgmon -pg
 
 (Note: As of this commit, I don't actually know if it will compile.)
+
+And the you'll need to tweak the Makefile.
