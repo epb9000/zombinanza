@@ -1,0 +1,38 @@
+#include <windows.h>
+#define  PaulaBMP 101
+#define  IceBlastBMP 102
+#define SOUND 9        
+         
+      
+100 BITMAP "zomblack.bmp"
+PaulaBMP BITMAP "hpaulasprites.bmp"
+IceBlastBMP BITMAP "iceblast.bmp"
+103 BITMAP "zomtile.bmp"
+104 BITMAP "osprites.bmp"
+1001 BITMAP "bosspumpkin.bmp"
+9 ICON "test.ico"
+#ifdef SOUND  
+200 WAVE "lunge12.wav"   
+201 WAVE "death2.wav"
+202 WAVE "ice.wav"  
+203 WAVE "freezez.wav"
+204 WAVE "monkeyflame.wav"
+205 WAVE "ghost.wav"
+206 WAVE "hurtz.wav"
+207 WAVE "teleport.wav"
+208 WAVE "oneup.wav" 
+209 WAVE "(f)pumkindeath intro.wav"
+210 WAVE "fireball.wav"
+211 WAVE "banjoss2.wav"
+212 WAVE "Bigpumpkinxsm.wav"
+213 WAVE "ghostdeath3.wav"
+214 WAVE "smallpumpkin1.wav"
+215 WAVE "foppydeath1.wav"
+216 WAVE "foppy.wav"
+300 WAVE "zombies.wav"
+301 WAVE "bossmusak.wav"
+302 WAVE "wintersmall.wav"
+303 WAVE "computer.wav"
+304 WAVE "space.wav"
+305 WAVE "lavashort.wav"
+#endif
